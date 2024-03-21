@@ -1,16 +1,15 @@
 一、需求及分析
   
-  PDF（Portable Document Format） 是工作及生活中常用的文档格式,有时基于安全及保护版权考虑需要对PDF 文档文件进行添加水印，本DEMO即提供为指定PDF文档每一页的页中心加印水印的功能。
+    PDF（Portable Document Format） 是工作及生活中常用的文档格式,有时基于安全及保护版权考虑需要对PDF 文档文件进行添加水印，本DEMO即提供为指定PDF文档每一页的页中心加印水印的功能。
 
 二、方案
 
-   1、一般有几类开源库可以实现该功能，比如 PDFBox库、iText库、Free Spire.PDF for Java 及 Aspose.PDF for Java，
-   也有Ghostscript 的命令行工具实现该需求，本 Demo 采用使用较为便捷的 Aspose.PDF 进行实现。
+    1、一般有几类开源库可以实现该功能，比如 PDFBox库、iText库、Free Spire.PDF for Java 及 Aspose.PDF for Java，也有Ghostscript 的命令行工具实现该需求，本 Demo 采用使用较为便捷的 Aspose.PDF 进行实现。
    
-   2、技术栈： 
+    2、技术栈： 
      Spring， SpringBoot，aspose 第三方开源
    
-   3、提供功能包含：
+    3、提供功能包含：
        1：提供文本水印
        2：提供图形水印
        3：在每页中心打印
