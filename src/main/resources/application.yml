@@ -1,7 +1,7 @@
 server:
   port: 8081
-name: This is a warter mark test
-age: 22
+arg1: This is a wartermark para
+arg2: para
 spring:
   servlet:
     multipart:

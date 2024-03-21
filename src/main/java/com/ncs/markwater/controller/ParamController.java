@@ -7,14 +7,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ParamController {
 
-    @Value("${name}")
-    private String name;
+    @Value("${arg1}")
+    private String arg1;
 
-    @Value("${age}")
-    private Integer age;
+    @Value("${arg2}")
+    private Integer arg2;
 
     @RequestMapping("/justcallback")
-    public String hello(){
-        return name + age;
+    public String callback(){
+        return arg1 + arg2;
     }
 }
