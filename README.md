@@ -38,5 +38,6 @@
 
     1： PDFController ---- 提供文本水印和图形水印功能
     2： resources/doc 基础知识之 JDK，JAVA， OS.doc --- 为基础知识文档参考
-    3:  resources/doc 关于办理 2023 年度个税汇算清缴常见问题.PDF  --- 可作为测试图形水印的测试文件
-    3： markwater/watermark.png ---- 图形水印文件，可作为测试图形水印的测试文件
+    3： resources/doc 关于办理 2023 年度个税汇算清缴常见问题.PDF  --- 可作为测试图形水印的测试文件
+    4： markwater/watermark.png ---- 图形水印文件，可作为测试图形水印的测试文件
+    5： resources/lib 下为Aspose.PDF第三方包
